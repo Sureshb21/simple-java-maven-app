@@ -67,6 +67,30 @@
           </execution>
         </executions>
       </plugin>
+                    <plugin>
+                        <groupId>org.jfrog.buildinfo</groupId>
+                        <artifactId>artifactory-maven-plugin</artifactId>
+                        
+                        <inherited>false</inherited>
+                        <executions>
+                            <execution>
+                                <id>build-info</id>
+                                <goals>
+                                    <goal>publish</goal>
+                                </goals>
+                                <configuration>
+                                    <publisher>
+                                        <contextUrl>http://13.232.16.226:8082/artifactory</contextUrl>
+                                        <username>admin</username>
+                                        <password>Welcome@123</password>
+                                        <repoKey>bvcps-iaams</repoKey>
+                                        <snapshotRepoKey>bvcps-iaams</snapshotRepoKey>
+                                    </publisher>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                
     </plugins>
   </build>
 </project>
