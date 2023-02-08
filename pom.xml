@@ -70,7 +70,7 @@
                     <plugin>
                         <groupId>org.jfrog.buildinfo</groupId>
                         <artifactId>artifactory-maven-plugin</artifactId>
-                        
+                        <version>3.8.1</version>
                         <inherited>false</inherited>
                         <executions>
                             <execution>
