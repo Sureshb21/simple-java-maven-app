@@ -18,7 +18,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+<repositories>
+    <repository>
+        <id>ARTIFACTORY</id>
+        <url>http://13.232.16.226:8082/artifactory/libs-release-local/</url>
+    </repository>
+</repositories>
   <build>
     <pluginManagement>
       <plugins>
@@ -75,7 +80,6 @@
                         <inherited>false</inherited>
                         <executions>
                             <execution>
-                                <id>build-info</id>
                                 <goals>
                                     <goal>publish</goal>
                                 </goals>
