@@ -92,6 +92,8 @@
                                         <password>Welcome@123</password>
                                         <repoKey>libs-release-local</repoKey>
                                         <snapshotRepoKey>libs-snapshots-local</snapshotRepoKey>
+                                      <publishArtifacts>true</publishArtifacts>
+                                <publishBuildInfo>true</publishBuildIn
                                     </publisher>
                                 </configuration>
                             </execution>
