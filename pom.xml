@@ -21,7 +21,7 @@
 <repositories>
     <repository>
         <id>ARTIFACTORY</id>
-        <url>http://13.232.16.226:8082/artifactory/libs-release-local/</url>
+        <url>http://13.232.16.226:8082/artifactory/libs-snapshots-local/</url>
     </repository>
 </repositories>
   <build>
