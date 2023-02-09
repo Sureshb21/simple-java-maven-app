@@ -87,7 +87,7 @@
                                         <repoKey>libs-release-local</repoKey>
                                         <snapshotRepoKey>libs-snapshots-local</snapshotRepoKey>
                                       <publishArtifacts>true</publishArtifacts>
-                                      <publishBuildInfo>true</publishBuildIn>
+                                      <publishBuildInfo>true</publishBuildInfo>
                                     </publisher>
                                 </configuration>
                             </execution>
