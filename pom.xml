@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-41-253-releases</name>
+        <url>http://13.232.16.226:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
