@@ -17,13 +17,13 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-<repositories>
+<distributionManagement>
     <repository>
-        <id>ARTIFACTORY</id>
-        <url>http://13.232.16.226:8082/artifactory/</url>
+        <id>central</id>
+        <name>ip-172-31-41-253-releases</name>
+        <url>http://13.232.16.226:8081/artifactory/libs-release-local</url>
     </repository>
-</repositories>
+</distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
