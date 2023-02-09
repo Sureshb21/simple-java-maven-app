@@ -95,8 +95,8 @@
                                         <contextUrl>http://13.232.16.226:8082/artifactory</contextUrl>
                                         <username>admin</username>
                                         <password>Welcome@123</password>
-                                        <repoKey>bvcps-iaams</repoKey>
-                                        <snapshotRepoKey>bvcps-iaams</snapshotRepoKey>
+                                        <repoKey>libs-release-local</repoKey>
+                                        <snapshotRepoKey>libs-snapshots-local</snapshotRepoKey>
                                     </publisher>
                                 </configuration>
                             </execution>
