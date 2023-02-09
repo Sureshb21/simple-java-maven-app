@@ -17,13 +17,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-41-253-releases</name>
-        <url>http://13.232.16.226:8081/artifactory/libs-release-local</url>
-    </repository>
-</distributionManagement>
+
   <build>
     <pluginManagement>
       <plugins>
@@ -34,6 +28,13 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-41-253-releases</name>
+        <url>http://13.232.16.226:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
