@@ -18,6 +18,18 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-41-253-releases</name>
+        <url>http://13.232.16.226:8081/artifactory/bvcps-iaams-dev</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-41-253-snapshots</name>
+        <url>http://13.232.16.226:8081/artifactory/bvcps-iaams-dev</url>
+    </snapshotRepository>
+</distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
